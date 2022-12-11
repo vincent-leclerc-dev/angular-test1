@@ -1,0 +1,6 @@
+<div class="container p-4">
+  <h1>{{title}}</h1>
+  <hr>
+  <WarningAlert *ngIf="alertType==='warning'"></WarningAlert>
+  <app-success-alert *ngIf="alertType==='success'"></app-success-alert>
+</div>
